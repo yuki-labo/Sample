@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+
+dl {
+	width: 780px;
+	margin: 20px auto 0;
+	text-align: left;
+}
+
+dl dt {
+	/*2016.08.22　服部　レイアウト調整*/
+	width: 199px;
+	/*width: 269px;*/
+	height: 55px;
+	font-size: 22px;
+	color: #fff;
+	line-height: 61px;
+	text-indent: 10px;
+	background: #324b41;
+	border: 3px solid #324b41;
+}
+
+dl dd {
+	/*2016.08.22　服部　レイアウト調整*/
+	width: 569px;
+	/*width: 499px;*/
+	height: 55px;
+	font-size: 30px;
+	/*font-size: 36px;*/
+	line-height: 61px;
+	text-indent: 20px;
+	border: 3px solid #324b41;
+}
+
+dl dd.next_cel {
+	border-top: none;
+}
+dl dd label {
+	cursor: pointer;
+}
+
+.buttons {
+	width: 780px;
+	margin: 52px auto 0;
+}
+
+#clear_btn {
+	width: 130px;
+	background-image: url(../img/exam_clear_btn.png);
+	background-repeat: no-repeat;
+	margin-left: 25px;
+}
+
+/* 2018.09.20 izumi メール送信ボタンを追加 */
+#mail_btn {
+	width: 131px;
+	height: 58px;
+	background-image: url(../img/common/mail_btn.png);
+	background-repeat: no-repeat;
+}
+
+span.exam_list{
+	margin-left: 5px;
+}
+
+@media screen and ( max-width:479px ) {
+	dl {
+		width: 100%;
+	}
+
+	dt, dd {
+		float: none!important;
+	}
+
+	dl dt {
+		width: 60%;
+		height: auto;
+		font-size: 1.0rem;
+		color: #fff;
+		line-height: normal;
+		border: none;
+		padding: 2% 0;
+		background: #324b41;
+	}
+
+	dl dd {
+		/*2016.08.22　服部　レイアウト調整*/
+		width: 100%;
+		height: auto;
+		font-size: 0.9rem;
+		/*font-size: 1.5rem;*/
+		box-sizing:border-box;
+		border: 1px solid #324b41;
+		line-height: normal;
+	}
+
+	dl dd.next_cel {
+		border-top: none;
+	}
+
+	#clear_btn {
+		width: 25%;
+		height: 0;
+		margin-left: 3%;
+		padding-top: 11%;
+		background-size: cover;
+	}
+
+	/* 2018.09.20 izumi メールの「送信」ボタンを追加*/
+	#mail_btn {
+		width: 25%;
+		height: 0;
+		padding-top: 11%;
+		background-size: cover;
+	}
+
+	.buttons {
+		width: 100%;
+		margin-top: 45px;
+	}
+}

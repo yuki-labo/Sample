@@ -1,0 +1,141 @@
+@CHARSET "UTF-8";
+
+ /*2017.04.18 平井*/
+#form_cfm {
+	width: 780px;
+	margin: 20px auto 0;
+}
+
+dt span {
+	color: #ff0000;
+}
+
+.info {
+	font-size: 20px;
+	margin-top: 5px;
+}
+ /*2017.04.18 平井*/
+
+#form_cfm dl {
+	/*2016.07.25　服部　修正*/
+	/*2017.07.24　平井　修正 5pt */
+	margin-bottom: 5px;
+	/*margin-bottom: 10px;*/
+	font-size: 20px;
+	text-align: left;
+}
+
+#form_cfm dl dt {
+	width: 300px;
+	height: 34px;
+	line-height: 34px;
+	text-indent: 10px;
+	float: left;
+	color: #fff;
+	background: #324b41;
+}
+
+#form_cfm dl dd {
+	width: 476px;
+	height: 30px;
+	line-height: 34px;
+	text-indent: 10px;
+	float: right;
+	border: 2px solid #324b41;
+}
+
+.buttons {
+	width: 780px;
+	margin: 52px auto 0;
+}
+
+@media screen and ( max-width:479px ) {
+	#form_cfm {
+		width: 100%;
+	}
+
+	.info {
+		font-size: 1.0rem;
+	}
+
+	#form_cfm dl dt,
+	#form_cfm dl dd {
+		border: none;
+	}
+
+	#form_cfm dl dt {
+		width: 100%;
+		height: auto;
+		font-size: 1.0rem;
+		text-indent: 1.0rem;
+		line-height: normal;
+		color: #fff;
+		background: #324b41;
+		padding: 2% 0;
+	}
+
+	#form_cfm dl dd {
+		width: 100%;
+		height: auto;
+		font-size: 1.2rem;
+		line-height: normal!important;
+		text-indent: 1.0rem;
+		color: #000;
+		padding: 2% 0;
+		box-sizing:border-box;
+		border: 1px solid #324b41;
+	}
+
+	.buttons {
+		width: 100%;
+		margin-top: 45px;
+	}
+}
+
+
+/*#test {
+	width: 780px;
+	margin: 16px auto 0;
+}*/
+
+/*#test dl {*/
+	/*2016.07.25　服部　修正*/
+	/*margin-bottom: 1px;*/
+	/*margin-bottom: 10px;*/
+	/*font-size: 16px;*/
+	/*font-size: 1.6rem;*/
+	/*text-align: left;*/
+
+/*}*/
+
+/*dl.test{*/
+	/*font-size: 18px;*/
+	/*font-size: 1.8rem;*/
+	/*margin-top: 5px;
+}*/
+
+/*2017.04.28 平井 チェックボックスのサイズ*/
+dl input[type="checkbox"]{
+	width:			20px;
+	height:			20px;
+}
+
+
+
+.test{
+	/*20161020　服部　追加*/
+	width: 790px;
+	margin: 0 auto;
+	text-align: left;
+	word-break: normal;
+}
+
+.test{
+	width: 100%;
+	line-height: 1.4rem;
+	font-size: 0.8em;
+}
+
+dl .test{
+	font-weight: bolder;
+}

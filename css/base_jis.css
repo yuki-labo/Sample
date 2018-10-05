@@ -1,0 +1,316 @@
+@CHARSET "UTF-8";
+
+body {
+	min-width: 1020px;
+	font-family:'ÉqÉâÉMÉmäpÉS Pro W3','Hiragino Kaku Gothic Pro','ÉÅÉCÉäÉI',Meiryo,'Osaka','ÇlÇr ÇoÉSÉVÉbÉN',sans-serif !important;
+}
+
+.sp {
+	display: none;
+}
+
+.lf {
+	float: left;
+}
+
+.rg {
+	float: right;
+}
+
+/* #header */
+#header {
+	margin-top: 12px;
+}
+
+#header h1 {
+	text-align: center;
+}
+
+/* #title */
+#title {
+	width: 100%;
+	height: 122px;
+	background: url(../img/common/title_bg.png) top center repeat-x;
+	padding-top: 20px;
+	margin-top: 12px;
+
+	color: #ffffff;
+	text-align: center;
+}
+
+#title #sub_title {
+	font-size: 23px;
+}
+
+#title h2 {
+	font-size: 53px;
+	font-weight: normal;
+	margin-top: 20px;
+	letter-spacing: 3px;
+}
+
+/* #main_contents */
+#main_contents {
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 180px;
+	font-size: 28px;
+	text-align: center;
+	color: #2c2d30;
+	background-image: url(../img/common/main_bg.jpg);
+	background-position: bottom center;
+	background-repeat: no-repeat;
+}
+
+#contents_inner {
+	width: 1020px;
+	margin: 0 auto;
+}
+
+/* #error */
+#error {
+	font-size: 18px;
+	color: #f00;
+}
+
+#error ul {
+	margin-bottom: 20px;
+}
+
+/* #footer */
+#footer {
+	width: 100%;
+}
+
+#footer #footer_bg {
+	height: 69px;
+	background: url(../img/common/footer_bg.jpg) top center repeat-x;
+}
+
+#footer #copyright {
+	color: #292d39;
+	text-align: center;
+	padding: 20px 0;
+}
+
+/* ÉpÉìÇ≠Ç∏ÉäÉXÉg */
+#transition {
+	margin-top: -30px;
+	margin-bottom: 60px;
+}
+
+#transition ul {
+	width: 855px;
+	margin: 0 auto;
+}
+
+#transition li {
+	font-family: "ü‡ñæí©", YuMincho, "ÉqÉâÉMÉmñæí© ProN W3", "Hiragino Mincho ProN", "HGñæí©E", "ÇlÇr Çoñæí©", "ÇlÇr ñæí©", serif;
+	font-size: 15px;
+	margin: 0 4px;
+	padding: 7px 0;
+	float: left;
+}
+
+#transition .arrow {
+	color: #eca576;
+}
+
+#transition .pankuzu {
+	background: #f4f4f4;
+	padding-left: 11px;
+	padding-right: 11px;
+}
+
+#transition .act {
+	background: #f7ebd0;
+}
+
+/* ã§í É{É^Éì */
+input[type="reset"],
+input[type="button"],
+input[type="submit"] {
+	height: 58px;
+	line-height:1;
+	border:none;
+	outline:none;
+	background:none;
+	text-indent:-9999px;
+	cursor: pointer;
+}
+
+input[type="reset"]:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+	opacity: 0.8;
+}
+
+input.back_btn {
+	width: 130px;
+	height: 58px;
+	background-image: url(../img/common/back_btn.png);
+	background-repeat: no-repeat;
+}
+
+input.next_btn {
+	width: 131px;
+	height: 58px;
+	background-image: url(../img/common/next_btn.png);
+	background-repeat: no-repeat;
+}
+
+input.cfm_btn {
+	width: 203px;
+	height: 58px;
+	background-image: url(../img/common/cfm_btn.png);
+	background-repeat: no-repeat;
+}
+
+/* ÉâÉWÉIÉ{É^ÉìÇ…Ç¬Ç¢Çƒ */
+input[type="radio"] {
+	zoom: 1.8;
+	vertical-align: initial;
+}
+
+/* éÛå±ñæç◊ï\é¶ópÉeÅ[ÉuÉã */
+.exam_tbl {
+	width: 780px;
+	margin: 20px auto 0;
+	text-align: center;
+}
+
+.exam_tbl th {
+	font-size: 22px;
+	font-weight: normal;
+	color: #fff;
+	background: #324b41;
+}
+
+.exam_tbl th,
+.exam_tbl td {
+	padding: 8px 0;
+	border: 3px solid #324b41;
+}
+
+@media screen and ( max-width:479px ) {
+	.pc {
+		display: none;
+	}
+
+	.sp {
+		display: block;
+	}
+
+	body {
+		min-width: 0;
+		width: 100%;
+	}
+
+	h1 img {
+		width: 70%;
+	}
+
+	#title {
+		height: 100px;
+		background-size: cover;
+	}
+
+	#title #sub_title {
+		font-size: 1.4rem;
+	}
+
+	#title h2 {
+		font-size: 2.0rem;
+		letter-spacing: 3px;
+	}
+
+	#main_contents {
+		font-size: 0.8rem;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	#contents_inner {
+		width: 96%;
+	}
+
+	.comment {
+		line-height: 1.0rem;
+	}
+
+	#footer #copyright {
+		font-size: 0.6rem;
+	}
+
+	#footer #footer_bg {
+		height: 0;
+		padding-top: 10%;
+		background-size: cover;
+	}
+
+	input.back_btn {
+		width: 25%;
+		height: 0;
+		padding-top: 11%;
+		background-size: cover;
+	}
+
+	input.next_btn {
+		width: 25%;
+		height: 0;
+		padding-top: 11%;
+		background-size: cover;
+	}
+
+	input.cfm_btn {
+		width: 39.04%;
+		height: 0;
+		padding-top: 11%;
+		background-size: cover;
+	}
+
+	#error {
+		font-size: 0.8rem;
+	}
+
+	#transition {
+		margin: 0;
+		margin-bottom: 30px;
+	}
+
+	#transition ul {
+		width: 100%;
+	}
+
+	#transition li {
+		font-size: 0.73rem;
+		padding: 2% 1.8%;
+		margin: 0;
+	}
+
+	#transition .pankuzu {
+		padding-left: 1.2%;
+		padding-right: 1.2%;
+	}
+
+	.sp_cfm dl {
+		margin-top: 15px;
+	}
+
+	.sp_cfm dt {
+		width: 100%;
+		font-size: 1.0rem;
+		color: #fff;
+		padding: 2% 0;
+		background: #324b41;
+	}
+
+	.sp_cfm dd {
+		width: 100%;
+		font-size: 1.5rem;
+		padding: 2% 0;
+		box-sizing:border-box;
+		border: 1px solid #324b41;
+	}
+
+}

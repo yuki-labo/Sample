@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+.buttons {
+	width: 780px;
+	margin: 52px auto 0;
+}
+
+@media screen and ( max-width:479px ) {
+	.buttons {
+		width: 100%;
+		margin-top: 45px;
+	}
+}

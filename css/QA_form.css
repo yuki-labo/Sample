@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+
+
+#form {
+	width: 780px;
+	margin: 20px auto 0;
+}
+
+p span,
+dt span {
+	color: #ff0000;
+}
+
+.info {
+	/*20161020　服部*/
+	width: 790px;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+dl {
+	margin-bottom: 1px;
+	font-size: 20px;
+	text-align: left;
+}
+
+dl dt {
+	width: 300px;
+	height: 34px;
+	line-height: 34px;
+	text-indent: 10px;
+	float: left;
+	color: #fff;
+	background: #324b41;
+}
+
+dl dd {
+	width: 476px;
+	height: 30px;
+	text-indent: 10px;
+	float: right;
+	border: 2px solid #324b41;
+}
+
+dl dd > select {
+	margin-top: 4px;
+	font-size: 15px;
+}
+
+dl dd > input[type="text"],
+dl dd > input[type="date"],
+dl dd > input[type="password"] {
+	height: 22px;
+	padding: 0;
+	font-size: 15px;
+	margin-top: 2px;
+}
+
+dl dd.radios {
+	line-height: 34px;
+}
+
+.buttons {
+	width: 780px;
+	margin: 52px auto 0;
+}
+
+
+.dtQA {
+	width: 300px;
+	height: 204px;
+	line-height: 64px;
+	text-indent: 10px;
+	float: left;
+	color: #fff;
+	background: #324b41;
+}
+
+.ddQA {
+	width: 476px;
+	height: 200px;
+	line-height: 60px;
+	text-indent: 10px;
+	float: left;
+}
+
+#QA {
+	width: 454px;
+	height: 193px;
+	padding: 0;
+	font-size: 15px;
+	margin-top: 2px;
+}

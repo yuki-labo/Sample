@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+.buttons {
+	width: 628px;
+	margin: 0 auto;
+}
+
+input[type="button"] {
+	width: 292px;
+	height: 266px;
+	line-height:1;
+	border:none;
+	outline:none;
+	background:none;
+	text-indent:-9999px;
+	cursor: pointer;
+}
+
+input[type="button"]:hover {
+	opacity: 0.8;
+}
+
+input.top_btn01 {
+	background-image: url(../img/top_links01.png);
+	background-repeat: no-repeat;
+	margin-bottom: 44px;
+}
+
+input.top_btn02 {
+	background-image: url(../img/top_links02.png);
+	background-repeat: no-repeat;
+	margin-bottom: 44px;
+}
+
+input.top_btn03 {
+	background-image: url(../img/top_links03.png);
+	background-repeat: no-repeat;
+}
+
+input.top_btn04 {
+	background-image: url(../img/top_links04.png);
+	background-repeat: no-repeat;
+}
+
+@media screen and ( max-width:479px ) {
+	.buttons {
+		width: 100%;
+	}
+
+	.buttons input {
+		width: 49%;
+		height: 0;
+		padding-top: 46%;
+		margin: 0;
+		background-size: 100%;
+	}
+}
