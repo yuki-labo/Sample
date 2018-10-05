@@ -112,7 +112,7 @@ foreach($result['data'] as $val) {
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
-<title>メール対象区分選択</title>
+<title>メール対象区分選テストですよ</title>
 
 <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 <script src="js/jquery.corner.js" type="text/javascript"></script>
