@@ -26,7 +26,7 @@ if(!empty($_POST)) {
 
 	// 必須項目確認処理
 	if(empty($post['name_sei'])) $error['name_sei'] = '「氏名(姓)」を入力してください。';
-	if(empty($post['name_mei'])) $error['name_mei'] = '「氏名(名)」を入力してください。';
+	if(empty($post['name_mei'])) $error['name_mei'] = '「あfghjkl氏名(名)」を入力してください。';
 	if(empty($post['name_sei_read'])) $error['name_sei_read'] = '「氏名ふりがな(せい)」を入力してください。';
 	if(empty($post['name_mei_read'])) $error['name_mei_read'] = '「氏名ふりがな(めい)」を入力してください。';
 	if(empty($post['date_of_birth'])) $error['date_of_birth'] = '「生年月日」を入力してください。';
