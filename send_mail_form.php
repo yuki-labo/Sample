@@ -3,7 +3,7 @@ include_once(dirname(__FILE__)."/common/config.ini.php");
 include_once(dirname(__FILE__)."/common/common.php");
 include_once(dirname(__FILE__)."/common/Validate.php");
 include_once(dirname(__FILE__)."/FX/FX.php");
-//githubも行けて頼みます
+//githubも行けて頼みますあああ
 // 初期化
 $post = array();
 $error = array();
