@@ -4,6 +4,8 @@ include_once(dirname(__FILE__)."/common/common.php");
 include_once(dirname(__FILE__)."/common/Validate.php");
 include_once(dirname(__FILE__)."/FX/FX.php");
 
+//おっけー
+
 // 初期化
 $post = array();
 $error = array();
