@@ -3,7 +3,7 @@ include_once(dirname(__FILE__)."/common/config.ini.php");
 include_once(dirname(__FILE__)."/common/common.php");
 include_once(dirname(__FILE__)."/common/Validate.php");
 include_once(dirname(__FILE__)."/FX/FX.php");
-//作りかけの資料
+//作りかけの資料eeeeeeee
 $kp_xm_mst_clt = $_SESSION['__kp_Xm_mst_clt'][0];
 
 //該当年度の対象区分出願者(_kf_xm_data_main)のリストを取得
